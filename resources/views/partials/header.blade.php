@@ -1,7 +1,7 @@
 <!-- Header section -->
 <header class="header-section">
     <div class="logo">
-        <img height="32" src="{{asset('img/'.$logo->src)}}" alt=""><!-- Logo -->
+        <img height="32" src="{{$logo->src == 'big-logo.png' ? asset('img/'.$logo->src) : asset('img/small-'.$logo->src)}}" alt=""><!-- Logo -->
     </div>
     <!-- Navigation -->
     <div class="responsive"><i class="fa fa-bars"></i></div>

@@ -27,6 +27,9 @@ class JobSeeder extends Seeder
             [
                 'name' => 'Developer'
             ],
+            [
+                'name' => 'Motherfucker'
+            ],
         ]);
     }
 }

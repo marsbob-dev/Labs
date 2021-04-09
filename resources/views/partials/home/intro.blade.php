@@ -2,7 +2,7 @@
 <div class="hero-section">
     <div class="hero-content">
         <div class="hero-center">
-            <img src="{{asset('img/'.$logo->src)}}" alt="">
+            <img width="504" height="148" src="{{asset('img/'.$logo->src)}}" alt="">
         </div>
     </div>
     <!-- slider -->

@@ -1,5 +1,5 @@
 <div style="margin-top: 5%;" class="container">
-    <h1 style="margin: 1% 0 1% 0;">Edit title & span</h1>µ
+    <h1 style="margin: 1% 0 1% 0;">Edit title & span</h1>
     @if ($errors->any())
         <div class="alert alert-danger">
             <ul>

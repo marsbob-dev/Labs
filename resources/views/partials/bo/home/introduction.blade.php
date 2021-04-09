@@ -14,7 +14,7 @@
         @method('PUT')
         <label for="">Title</label>
         <input class="form-control" type="text" name="title" value="{{old('title') ? old('title') : $introductions->title}}">
-        <small>Put between paranthesis the part of the title you want in green</small>
+        <small>Mettez entre parenthèses la partie du titre que vous désirez surligner en vert.</small>
         <br> <br>
         <label for="">Paragraphs</label>
         <textarea class="form-control" name="p1" id="" cols="30" rows="5">{{old('p1') ? old('p1') : $introductions->p1}}</textarea>

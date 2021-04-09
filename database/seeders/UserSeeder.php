@@ -50,10 +50,10 @@ class UserSeeder extends Seeder
                 'approuved' => true
             ],
             [
-                'name' => 'Haught',
-                'surname' => 'Nicole',
+                'name' => 'I DARE',
+                'surname' => 'YOU',
                 'email' => '4@4.com',
-                'job_id' => '4',
+                'job_id' => '5',
                 'role_id' => '2',
                 'photo_id' => 5,
                 'description' => 'Vivamus in urna eu enim porttitor consequat. Proin vitae pulvinar libero. Proin ut hendrerit metus. Aliquam erat volutpat. Donec fermen tum convallis ante eget tristique.',
@@ -61,8 +61,8 @@ class UserSeeder extends Seeder
                 'approuved' => true
             ],
             [
-                'name' => 'Law',
-                'surname' => 'Trafalgar D.',
+                'name' => 'Michel',
+                'surname' => 'Zordoz',
                 'email' => '5@5.com',
                 'job_id' => '4',
                 'role_id' => '4',

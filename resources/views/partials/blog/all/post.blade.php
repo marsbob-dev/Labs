@@ -19,7 +19,7 @@
         <div class="post-content">
             <h2 class="post-title">{{$item->title}}</h2>
             <div class="post-meta">
-                <a href="/post/{{$item->id}}/#authorId">{{$item->authors->name}} {{$item->authors->surname}}</a>
+                <a href="/post/{{$item->id}}/#authorId">{{$item->category->name}}</a>
 
                 @foreach ($item->tags->take(2) as $tagss)
                     @if ($loop->iteration == 1)

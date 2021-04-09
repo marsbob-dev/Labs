@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Logo;
+use Image;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
@@ -81,6 +82,8 @@ class LogoController extends Controller
         $request->file('src')->storePublicly('img/', 'public');
         $updateEntry->src = $request->file('src')->hashName();
         $updateEntry->save();
+        $img=Image::make('img/'.$updateEntry->src)->resize(100,80);
+        $img->save('img/small-'.$updateEntry->src);
         return redirect()->back();
     }
 

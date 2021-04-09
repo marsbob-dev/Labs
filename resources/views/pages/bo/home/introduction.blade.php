@@ -1,5 +1,11 @@
-@extends('template.third')
+@extends('adminlte::page')
 
+@section('title', 'AdminLTE')
+
+@section('content_header')
+    <h1 class="m-0 text-dark">Introduction</h1>
+@stop
+@include('partials.linkCSS')
 @section('content')
     <div style="margin-top: 5%;">
         <div class="about-section">
@@ -36,4 +42,5 @@
         </div>
     </div>
     @include('partials.bo.home.introduction')
+    @include('partials.linkJS')
 @stop

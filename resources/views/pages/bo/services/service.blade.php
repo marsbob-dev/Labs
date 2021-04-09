@@ -1,4 +1,11 @@
-@extends('template.third')
+@extends('adminlte::page')
+
+@section('title', 'AdminLTE')
+
+@section('content_header')
+    <h1 class="m-0 text-dark">Introduction</h1>
+@stop
+@include('partials.linkCSS')
 
 @section('content')
     <div style="margin-top: 10%;" class="container">
@@ -23,4 +30,5 @@
         </div>
     </div>
     @include('partials.bo.services.resourcesTable')
+    @include('partials.linkJS')
 @stop
