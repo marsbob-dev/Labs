@@ -5,8 +5,8 @@
             <h2>{!! $titleService !!}</h2>
         </div>
         <div class="row">
+            <!-- service -->
             @foreach ($resources->random(9) as $item)
-                <!-- single service -->
                 <div class="col-md-4 col-sm-6">
                     <div class="service">
                         <div class="icon">
@@ -18,9 +18,10 @@
                         </div>
                     </div>
                 </div>
-                <!-- single service -->
+                <!-- service -->
             @endforeach
         </div>
+        {{-- btn --}}
         <div class="text-center">
             <a href="{{$services->btnLink}}" class="site-btn">{{$services->btn}}</a>
         </div>

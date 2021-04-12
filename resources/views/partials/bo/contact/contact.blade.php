@@ -1,5 +1,6 @@
-<div style="margin: 0; padding: 0;" class="row">
-    <div style="margin: 0;" class="col-sm-6">
+<hr  style="margin-top: 5%; margin-bottom: 5%">
+<div>
+    <div style="padding: 3%" class="col-12 my-5">
         <h1 class="text-center">Email Subjects</h1>
         <h3 style="margin: 1% 0 1% 0;">Create a new subject</h3>
         @if ($errors->any())
@@ -47,7 +48,8 @@
             </tbody>
         </table>
     </div>
-    <div style="margin: 0%;" class="col-sm-6">
+    <hr style="margin-top: 5%; margin-bottom: 5%">
+    <div style="padding: 3%" class="col-12">
         <h1 class="text-center">Contact</h1>
         @if ($errors->any())
             <div class="alert alert-danger">

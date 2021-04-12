@@ -1,6 +1,7 @@
 <div class="post-thumbnail">
     <img height="300" width="750" src="{{asset('img/blog/'.$post->src)}}" alt="">
     <div class="post-date">
+        {{-- created at --}}
         @if ($post->created_at == NULL)
             <h2>03</h2>
             <h3>Nov 2017</h3>
@@ -14,6 +15,7 @@
     <h2 class="post-title">{{$post->title}}</h2>
     <div class="post-meta">
         <a href="#authorId">{{$post->authors->name}} {{$post->authors->surname}}</a>
+        {{-- foreach tags --}}
             @foreach ($post->tags as $item)
                 @if ($loop->iteration == 1)
                     <a class="text-capitalize" href="/tagsFilter/{{$item->id}}">{{$item->name}}</a>
@@ -23,6 +25,7 @@
             @endforeach
         <a href="#commentId">{{$nbrComment}} Comments</a>
     </div>
+    {{-- foreach content --}}
     @foreach ($paragraphs as $item)
         <p>{{$item}}</p>
     @endforeach

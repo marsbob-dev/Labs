@@ -1,4 +1,4 @@
-<!-- Commert Form -->
+<!-- Comment Form -->
 <div class="row">
     <div class="col-md-9 comment-from">
         <h2>Leave a comment</h2>

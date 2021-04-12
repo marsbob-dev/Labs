@@ -14,7 +14,7 @@
         @method('PUT')
         <label for="">Title</label>
         <input class="form-control" type="text" name="title" value="{{old('title') ? old('title') : $services->title}}">
-        <small>Put between paranthesis the part of the title you want in green</small>
+        <small>Mettez entre parenthèses la partie du titre que vous désirez surligner en vert.</small>
         <br>
         <label for="">Button</label>
         <input class="form-control" type="text" name="btn" value="{{old('btn') ? old('btn') : $services->btn}}">
@@ -36,7 +36,7 @@
         @method('PUT')
         <label for="">Title</label>
         <input class="form-control" type="text" name="title" value="{{old('title') ? old('title') : $phones->title}}">
-        <small>Put between paranthesis the part of the title you want in green</small>
+        <small>Mettez entre parenthèses la partie du titre que vous désirez surligner en vert.</small>
         <br>
         <button class="btn btn-info" type="submit">Edit</button>
     </form>

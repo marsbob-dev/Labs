@@ -11,16 +11,16 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-                    <h2 class="">Welcome in the BackOffice!</h2>
+                    <h2 class="">Bienvenue dans le BackOffice</h2>
                     @can('isWebmaster')
-                        <p>Here you can modify all of your website content. On the left menu, you'll find two categories as well as a button to go back to your website.</p>
-                        <p class="ml-3"><strong>Content Change</strong>: find all the parts of your website waiting for you to modify them!</p>
-                        <p class="ml-3"><strong>Account Setting</strong>: find your pending users, a complete list of the team's users, the different jobs, roles and a list of your newsletter's subscribers.</p>
+                        <p>Vous pouvez modifier ici tous les aspects de votre site.</p>
+                        <p class="ml-3"><strong>Contenu</strong>: Modifiez ici le contenu de vos pages</p>
+                        <p class="ml-3"><strong>Utiilisateurs</strong>: Gérez vos utilisateurs</p>
                     @elsecan('isRedactor')
-                        <p>Here you can modify your profile as well as the articles you wrote.</p>
-                        <p>You can see the list of all the articles on the website but you can only modify or delete yours.</p>
+                        <p>Vous pouvez modifier ici vos articles ainsi que votre profil</p>
+                        <p>Vous pouvez également voir tous les articles du site</p>
                     @elsecan('isMember')
-                        <p>Here you can modify your profile</p>
+                        <p>Ici, vous pouvez modifier votre profil</p>
                     @endcan
                 </div>
             </div>

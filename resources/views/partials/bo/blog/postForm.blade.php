@@ -33,7 +33,7 @@
         <div class="form-group">
             <label>Content</label>
             <textarea class="form-control" name="content" id="" cols="30" rows="10">{{old('content')}}</textarea>
-            <small>If you wish to split your text in paragraph just put a "/" between them</small>
+            <small>Si vous désirez créer plusieurs paragraphes, séparez les par un /</small>
         </div>
         <div class="form-group">
             <label>Image</label>

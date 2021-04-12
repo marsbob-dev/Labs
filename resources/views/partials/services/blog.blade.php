@@ -1,13 +1,14 @@
 <!-- services card section-->
 <div class="services-card-section spad" id="cardSection">
     <div class="container">
+        {{-- 3 post --}}
         <div class="row">
             @foreach ($lastPost as $item)
                 <!-- Single Card -->
                 <div class="col-md-4 col-sm-6">
                     <div class="sv-card">
                         <div class="card-img">
-                            <img src="{{asset('img/blog/'.$item->src)}}" alt="">
+                            <img src="{{asset('img/blog/'.$item->src)}}" alt="" style="height: 360px">
                         </div>
                         <div class="card-text">
                             <h2>{{$item->title}}</h2>

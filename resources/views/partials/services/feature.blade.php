@@ -6,9 +6,10 @@
             <h2>{!! $title2 !!}</h2>
         </div>
         <div class="row">
-            <!-- feature item -->
+            <!-- foreach services -->
             <div class="col-md-4 col-sm-4 features">
                 @foreach ($lastServices as $item)
+                {{-- 3 left --}}
                     @if($loop->iteration <= 3)
                         <div class="icon-box light left">
                             <div class="service-text">
@@ -20,7 +21,7 @@
                             </div>
                         </div>
                     @endif
-
+                        {{-- center --}}
                     @if ($loop->iteration == 3)
                         </div>
                         <div class="col-md-4 col-sm-4 devices">
@@ -30,7 +31,7 @@
                         </div>
                         <div class="col-md-4 col-sm-4 features">
                     @endif
-
+                            {{-- 3 right --}}
                     @if($loop->iteration > 3)
                         <div class="icon-box light right">
                             <div class="icon">

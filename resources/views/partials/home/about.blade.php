@@ -5,6 +5,7 @@
     <div class="card-section">
         <div class="container">
             <div class="row">
+                {{-- random 3 cards --}}
                 @foreach ($resources->random(3) as $item)
                     <!-- single card -->
                     <div class="col-md-4 col-sm-6">

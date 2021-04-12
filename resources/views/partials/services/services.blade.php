@@ -4,6 +4,7 @@
         <div class="section-title dark">
             <h2>{!! $title !!}</h2>
         </div>
+        {{-- foreach services --}}
         <div class="row">
             @foreach ($resources as $item)
                 <!-- single service -->

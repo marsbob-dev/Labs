@@ -5,6 +5,7 @@
         <div class="section-title">
             <h2>{!! $titleTeam !!}</h2>
         </div>
+        {{-- foreach members (random 2) --}}
         <div class="row">
             @foreach ($users->where('job_id', '!=', 1)->random(2) as $item)
                 <!-- single member -->

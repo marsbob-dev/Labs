@@ -16,7 +16,7 @@
         <br>
         <label for="">New Picture</label>
         <input class="form-control" type="file" name="src">
-        <small>Choose a picture with a big size and resolution if you don't want the carousel to shrink</small>
+        <small>Veillez a prendre une image de bonne qualité pour ne pas la déformer</small>
         <br>
         <button class="btn btn-info" type="submit">Create</button>
     </form>

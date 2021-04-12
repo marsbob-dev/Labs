@@ -1,4 +1,5 @@
 <!-- Single widget -->
+{{-- Search bar --}}
 <div class="widget-item">
     <form action="/search" class="search-form" method="GET">
         @csrf

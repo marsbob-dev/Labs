@@ -1,7 +1,9 @@
 <!-- Post Comments -->
 <div class="comments" id="commentId">
+    {{-- comment number --}}
     <h2>Comments ({{$nbrComment}})</h2>
     <ul class="comment-list">
+        {{-- foreach comment --}}
         @foreach ($comments as $item)
             <li>
                 <div class="avatar">

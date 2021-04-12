@@ -229,7 +229,7 @@ return [
             'can'  => 'manage-blog',
         ],
         [ 
-            'header' => 'CONTENT CHANGES',
+            'header' => 'Contenu',
             'can' => 'isWebmaster' 
         ],
         [
@@ -341,7 +341,7 @@ return [
             'can' => 'isWebmaster'
         ],
         [
-            'header' => 'account_settings'
+            'header' => 'Utilisateurs'
         ],
         [
             'text' => 'Pending users',

@@ -7,6 +7,7 @@
                 <div class="section-title left">
                     <h2>{!! $titleTesti !!}</h2>
                 </div>
+                {{-- foreach witnesses --}}
                 <div class="owl-carousel" id="testimonial-slide">
                     @foreach ($witnesses as $item)
                         <!-- single testimonial -->

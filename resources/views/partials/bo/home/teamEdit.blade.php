@@ -14,7 +14,7 @@
         @method('PUT')
         <label for="">Title</label>
         <input class="form-control" type="text" name="title" value="{{old('title') ? old('title') : $teams->title}}">
-        <small>Put between paranthesis the part of the title you want in green</small>
+        <small>Mettez entre parenthèses la partie du titre que vous désirez surligner en vert.</small>
         <br>
         <button class="btn btn-info" type="submit">Edit</button>
     </form>
